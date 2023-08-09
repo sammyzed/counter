@@ -1,0 +1,83 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#container {
+    width: 380px;
+    background: #FF9959;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+#background {
+    max-width: 350px;
+    min-width: 300px;
+    background-image: url("corgi.jpg");
+    background-size: cover;
+    background-position: left;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+#heading {
+    display: flex;
+    justify-content: space-around;
+    background: #C16125;
+    margin-bottom: 70px;
+    padding: 5px 10px;
+    color: #F7EED1;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    
+    
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #EFEEEC;
+    font-weight: bold;
+    width: 120px;
+    margin: 5px 0 5px auto;
+    border-radius: 10px;
+}
+
+#increment-btn {
+    background: #FF6200;
+    display: block;
+    
+}
+
+#save-btn {
+    background: #C34B00;
+    display: block;
+}
+
+#totals {
+    width: 350px;
+    margin-right: 220px;
+}
+
+#totals-background {
+    background: #FF8032;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 5px;
+    color:#F7EED1;
+}
